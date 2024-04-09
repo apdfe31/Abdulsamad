@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Darker Grotesque", sans-serif;
+  }
+  
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  
+  header {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+  }
+  
+  .ota {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 10px;
+  }
+  
+  .ota a {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  .bola {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bola a {
+    color: #000;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .bola2 a {
+    color: #bc8e5b;
+    margin-right: 20px;
+    text-underline-offset: 3px;
+  }
+  
+  .bola2 button {
+    padding: 3px 30px;
+    background-color: transparent;
+    border: 1px solid #bc8e5b;
+    border-radius: 8px;
+    color: #bc8e5b;
+    font-size: 20px;
+  }
+  
+  .bola2 button:hover {
+    text-decoration: underline;
+    text-underline-offset: 7px;
+  }
+  
+  main {
+    padding: 30px 0 30px;
+  }
+  
+  .katta-blaq {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .blaq {
+    background-color: #f3ebdf;
+    padding: 50px 20px 50px;
+    border-radius: 10px;
+  }
+  
+  .blaq h1 {
+    font-size: 30px;
+    color: #69451b;
+  }
+  
+  .blaq p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #bc8e5b;
+  }
+  
+  .blaq2 {
+    background-color: #f9f7f3;
+    padding: 0 20px;
+    border-radius: 10px;
+    color: #69451b;
+  }
+
+  
+  .blaq2 h1 {
+    font-size: 30px;
+  }
+  
+  .blaq2 p {
+    font-size: 20px;
+  }
+
+  .bola5, button {
+    padding: 5px 100px 5px;
+  }
+
+input {
+    padding: 5px 100px 5px;
+    border: color(srgb red green blue);
+}
+  /* ------------------------------------------------------------------------MEDIA------------------------------------------------------------------------------- */
+
+  @media (max-width: 980px) {
+    .katta-blaq {
+        flex-wrap: wrap;
+        margin-top: 100px;
+    }
+    .bola2 {
+        display: none;
+    }
+  }
